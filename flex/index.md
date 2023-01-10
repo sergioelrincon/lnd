@@ -7,6 +7,7 @@
 * [**flex-direction**](https://www.w3schools.com/cssref/css3_pr_flex-direction.php): modifica la dirección del eje principal.
   * [Ejemplo de Néstor Benítez](ejemplos/flex-direction_NestorBN.html)
 * [**flex-wrap**](https://www.w3schools.com/cssref/css3_pr_flex-wrap.php): controla el comportamiento del contenedor respecto a evitar que se desborde .
+  * [Ejemplo de Adrián](ejemplos/Flex-Wrap_Adrian.html)
 * [**justify-content**](https://www.w3schools.com/cssref/css3_pr_justify-content.php): permite alinear los ítems horizontalmente.
 * [**align-items**](https://www.w3schools.com/cssref/css3_pr_align-items.php): permite alinear los ítems verticalmente.
   * [Ejemplo de Jerover](ejemplos/align-items_jerover.html)
