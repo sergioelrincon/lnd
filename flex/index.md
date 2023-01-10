@@ -1,9 +1,9 @@
 # Flex
 
-* Contenedor (display:flex)
+* [**Contenedor**](https://www.w3schools.com/css/css3_flexbox_container.asp) (display:flex)
   * Eje principal. Por defecto, horizontal.
   * Eje secundario. Por defecto, vertical.
-* Ítems o elementos flexibles
+* [**Ítems o elementos flex**](https://www.w3schools.com/css/css3_flexbox_items.asp)
 * [**flex-direction**](https://www.w3schools.com/cssref/css3_pr_flex-direction.php): modifica la dirección del eje principal.
 * [**flex-wrap**](https://www.w3schools.com/cssref/css3_pr_flex-wrap.php): controla el comportamiento del contenedor respecto a evitar que se desborde .
 * [**justify-content**](https://www.w3schools.com/cssref/css3_pr_justify-content.php): permite alinear los ítems horizontalmente.
