@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Align-Self</title>
+    <style>
+        .align_self{
+            display: flex;
+            background-color: darkcyan;
+            height: 200px;
+            align-items: center;
+        }
+
+        .align_self > div{
+            background-color: aliceblue;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Align-Self</h1>
+    <p>Especifica la alineación del elemento seleccionado dentro del contenedor flexible. Anula la alineación predeterminada establecida por la propiedad align-items del contenedor .</p>
+    <br>
+    <p>El contenedor 1 está centrado (center), el contenedor 2 está alineado abajo (flex-end), el contenedor 3 está alineado arriba (flex-start) y el contenedor 4 no tiene ninguna modificación.</p>
+    <div class="align_self">
+        <div style="align-self: center;">1</div>
+        <div style="align-self: flex-end;">2</div>
+        <div style="align-self: flex-start">3</div>
+        <div>4</div>
+   </div>
+</body>
+</html>

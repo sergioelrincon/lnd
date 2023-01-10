@@ -19,3 +19,4 @@
 * [**flex-shrink**](https://www.w3schools.com/css/css3_flexbox_items.asp#flex-shrink): especifica cuánto se encogerá un ítem respecto al resto de los ítems flexibles en un contenedor.
 * [**flex-basis**](https://www.w3schools.com/css/css3_flexbox_items.asp#flex-basis): indica la longitud de un elemento flex.
 * [**align-self**](https://www.w3schools.com/css/css3_flexbox_items.asp#align-self): establece la alineación de un elemento dentro del contenedor flexible, anulando la alineación establecida por *align-items*.
+  * [Ejemplo de Doramas](ejemplos/align-self_doramas.html)
