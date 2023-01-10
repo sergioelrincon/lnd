@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Order_NestorBN</title>
+    <style>
+        /*Order*/
+        .flex-container1 {
+            display: flex;
+            width: 250px;
+            background-color: dodgerblue;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+        .flex-container1 div {
+            width: 30px;
+            border-style:solid;
+            border-color: black;
+            background-color: yellow;
+            text-align: center;
+            margin: 10px;
+            border-width: 1px;
+        }
+        /* Order*/
+        .flex-container2 {
+            display: flex;
+            width: 250px;
+            background-color: blue;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+        .flex-container2 div {
+            width: 30px;
+            border-style:solid;
+            border-color: black;
+            background-color: yellow;
+            text-align: center;
+            margin: 10px;
+            border-width: 1px;
+        }  
+        h2{
+            margin-bottom: 0px;
+        }       
+    </style>
+</head>
+<body>
+    <br>
+    <h2>Ejemplo 1</h2>
+    <div class="flex-container1">
+        <div style="order: 6;">I1</div>
+        <div style="order: 5;">I2</div>
+        <div style="order: 4;">I3</div>
+        <div style="order: 3;">I4</div>
+        <div style="order: 2;">I5</div>
+        <div style="order: 1;">I6</div>
+    </div>
+    <br>
+    <h2>Ejemplo 2</h2>
+    <div class="flex-container2">
+        <div style="order: 1;">I1</div>
+        <div style="order: 1;">I2</div>
+        <div style="order: 0;">I3</div>
+        <div style="order: 3;">I4</div>
+        <div style="order: 3;">I5</div>
+        <div style="order: 0;">I6</div>
+    </div>
+
+    <a href="IndexNestorBN.html">Volver</a>
+    
+</body>
+</html>
