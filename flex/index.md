@@ -5,6 +5,7 @@
   * Eje secundario. Por defecto, vertical.
 * [**Ítems o elementos flex**](https://www.w3schools.com/css/css3_flexbox_items.asp)
 * [**flex-direction**](https://www.w3schools.com/cssref/css3_pr_flex-direction.php): modifica la dirección del eje principal.
+  * [Ejemplo de Néstor Benítez](ejemplos/flex-direction_NestorBN.html)
 * [**flex-wrap**](https://www.w3schools.com/cssref/css3_pr_flex-wrap.php): controla el comportamiento del contenedor respecto a evitar que se desborde .
 * [**justify-content**](https://www.w3schools.com/cssref/css3_pr_justify-content.php): permite alinear los ítems horizontalmente.
 * [**align-items**](https://www.w3schools.com/cssref/css3_pr_align-items.php): permite alinear los ítems verticalmente.
