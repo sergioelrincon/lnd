@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex align-content</title>
+    <style>
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 120px;
+  height: 300px;
+  padding: 10px;
+  border: 2px solid rebeccapurple;
+  margin-top: 10px;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  flex-flow: row wrap;
+}
+
+.flex-start { 
+  align-content: flex-start; 
+}
+
+.flex-end { 
+  align-content: flex-end; 
+}
+.flex-end li {
+  background: rgb(43, 124, 255)
+}
+
+.center { 
+  align-content: center; 
+}
+.center li {
+  background: rgb(43, 124, 255)
+}
+
+.space-between { 
+  align-content: space-between; 
+}  
+.space-between li {
+  background: rgb(43, 124, 255)
+}
+
+.space-around { 
+  align-content: space-around; 
+}
+.space-around li {
+  background: rgb(43, 124, 255)
+}
+
+.stretch { 
+  align-content: stretch; 
+}
+.stretch li {
+  background: rgb(43, 124, 255)
+}
+
+.flex-item {
+  background: rgb(43, 124, 255);
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+    </style>
+</head>
+    <body>
+            <ul class="flex-container flex-start">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+            <li class="flex-item">6</li>
+          </ul>
+          
+          <ul class="flex-container flex-end">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+            <li class="flex-item">6</li>
+          </ul>
+          
+          <ul class="flex-container center">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+            <li class="flex-item">6</li>
+          </ul>
+          
+          <ul class="flex-container space-between">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+            <li class="flex-item">6</li>
+          </ul>
+          
+          <ul class="flex-container space-around">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+            <li class="flex-item">6</li>
+          </ul>
+          
+          <ul class="flex-container stretch">
+            <li class="flex-item">1</li>
+            <li class="flex-item">2</li>
+            <li class="flex-item">3</li>
+            <li class="flex-item">4</li>
+            <li class="flex-item">5</li>
+            <li class="flex-item">6</li>
+          </ul>
+          
+          <br>
+        <a href="propiedadesflex.html">Volver</a>
+    </body>
+</html>
