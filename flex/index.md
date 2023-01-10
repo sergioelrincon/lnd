@@ -8,6 +8,7 @@
 * [**flex-wrap**](https://www.w3schools.com/cssref/css3_pr_flex-wrap.php): controla el comportamiento del contenedor respecto a evitar que se desborde .
 * [**justify-content**](https://www.w3schools.com/cssref/css3_pr_justify-content.php): permite alinear los ítems horizontalmente.
 * [**align-items**](https://www.w3schools.com/cssref/css3_pr_align-items.php): permite alinear los ítems verticalmente.
+  * [Ejemplo de Jerover](ejemplos/align-items_jerover.html)
 * [**align-content**](https://www.w3schools.com/cssref/css3_pr_align-content.php): especifica cómo se distribuyen las líneas flex a lo largo del eje vertical del contenedor.
     * [Ejemplo de Brian](ejemplos/align-content_brian.html)
 * [**order**](https://www.w3schools.com/css/css3_flexbox_items.asp#order):  modifica el orden en el que se muestran los elementos flex.
