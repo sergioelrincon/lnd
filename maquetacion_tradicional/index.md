@@ -29,6 +29,8 @@ del documento.
 padre que tenga position:relative.
   * Valor *sticky*: Se comporta como relative hasta llegar a una posición de scroll y a
 partir de entonces, fixed.
+* [Propiedad **float**](https://www.w3schools.com/css/css_float.asp)
+  * Especifica cómo debería flotar un elemento. Por ejemplo, nos permite especificar que una imagen flote a la izquierda de un texto en un contenedor.
 * [Propiedad **box-sizing**](https://www.w3schools.com/css/css3_box-sizing.asp)
   * Si le asignamos el valor "border-box", el valor de ancho y alto que le demos al elemento será la suma de altura del contenido + padding + borde.
 * [Propiedad **z-index**](https://www.w3schools.com/cssref/pr_pos_z-index.php)
@@ -36,14 +38,14 @@ partir de entonces, fixed.
 de estos elementos. 
   * Se mostrará por encima del resto aquel elemento de los que
 se solapen con el mayor valor de z-index. 
-* Centrado
+
+<!-- * Centrado
   * En horizontal
-    * Elementos en línea: añadiremos la propiedad textalign:center al contenedor padre. 
+    * Elementos en línea: añadiremos la propiedad "text-align:center" al contenedor padre. 
     * Elementos en bloque: dentro de su etiqueta
-contenedora añadiremos la propiedad CSS margin: X auto al elemento
-que queramos centrar.
+contenedora añadiremos la propiedad CSS "margin: X auto" al elemento que queramos centrar. (Donde X es una distancia expresada en cualquier unidad)
   * En vertical
-    * Elementos en línea: configurar el mismo padding arriba y abajo.
+    * Elementos en línea: configurar el mismo padding arriba y abajo. 
     * Elementos en bloque: 
       * Si conocemos la altura:
-      * Si no conocemos la altura:
+      * Si no conocemos la altura: -->
