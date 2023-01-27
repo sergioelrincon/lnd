@@ -2,3 +2,4 @@
 
 * [Maquetación tradicional](maquetacion_tradicional/index.md)
 * [Flex](flex/index.md)
+<!-- * [Bootstrap](bootstrap/index.md) -->
