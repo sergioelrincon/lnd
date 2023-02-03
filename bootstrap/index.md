@@ -19,4 +19,4 @@ Para poder utilizar Bootstrap en nuestros proyectos no es necesario descargar el
     ...
     </html>
 
-Otra forma de utilizar Bootstrap en nuestros proyectos es descargarnos el código fuente ([Compiled CSS and JS](https://www.w3schools.com/cssref/css3_pr_text-shadow.php)) e incluirlo en nuestros ficheros mediante `<link href="./css/bootstrap.css">`. En este caso, el fichero no se cacheará en el navegador y en la mayoría de los casos será necesario descargarlo, lo cual ralentizará un poco más la carga.
+Otra forma de utilizar Bootstrap en nuestros proyectos es descargarnos el código fuente ([Compiled CSS and JS](https://www.w3schools.com/cssref/css3_pr_text-shadow.php)) e incluirlo en nuestros ficheros mediante `<link rel="stylesheet" href="./css/bootstrap.css">`. En este caso, el fichero no se cacheará en el navegador y en la mayoría de los casos será necesario descargarlo, lo cual ralentizará un poco más la carga.
