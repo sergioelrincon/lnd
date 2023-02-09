@@ -45,7 +45,7 @@ Podemos añadir el nombre de nuestra empresa añadiendo un elemento `<a>` asocia
 
 Si quisiéramos dejar a la izquierda el nombre de nuestra empresa y a la derecha todas las opciones del menú podríamos hacer uso de las clases que se documentan en [Utilities-Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/#notation). En concreto en este caso utilizaremos `ms-auto` en el elemento `<ul>`, lo cual añade todo el margen posible al inicio del elemento (izquierda en nuestro caso).
 
-Si observamos cómo se adapta el menú a tamaños más pequeños de la pantalla podemos ver que quizás no se ajute a lo que estamos acostumbrados a ver en Internet. Vamos a ver cómo podemos crear un menú tipo 'hamburguesa', que se genere cuando disminuimos el ancho de la pantalla. Esto lo podemos hacer con [toggler](https://getbootstrap.com/docs/5.3/components/navbar/#toggler). 
+Si observamos cómo se adapta el menú a tamaños más pequeños de la pantalla podemos ver que quizás no se ajute a lo que estamos acostumbrados a ver en Internet. Vamos a ver cómo podemos crear un [menú tipo 'hamburguesa'](https://www.irudigital.com/menu-hamburguesa/), que se genere cuando disminuimos el ancho de la pantalla. Esto lo podemos hacer con [toggler](https://getbootstrap.com/docs/5.3/components/navbar/#toggler). 
 
 Para ello vamos a utilizar el código fuente que se muestra en el ejemplo de la URL anterior. A grandes rasgos, tenemos que hacer lo siguiente:
 * Crear un `<div>` donde incluyamos todo el contenido 'collapsable' (en nuestro caso, el elemento `<ul>`).
