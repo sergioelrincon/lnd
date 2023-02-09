@@ -52,13 +52,17 @@ Para ello vamos a utilizar el código fuente que se muestra en el ejemplo de la 
 * Asignarle un "id" a dicho `<div>`.
 * Asociarle las clases "collapse navbar-collapse" a dicho `<div>`.
 * Crear un elemento `<button>` de tipo(type) "button" y de la clase "navbar-toggler" justo antes del `<div>` anterior. 
-* Añadirle a dicho botón el atributo "data-bs-target" y asignarle como valor el id asignado al div anterior.
+* Añadirle a dicho botón el atributo "data-bs-target" y asignarle como valor el id asignado al div anterior, precedido por una "#".
+* Incluir los siguientes atributtos al elemento `<button>`: `data-bs-toggle="collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"`
+* Crear, dentro del elemento `<button>` un `<span>`con el siguiente contenido: `<span class="navbar-toggler-icon"></span>`.
 
+<!--
 El código fuente con las especificaciones anteriores se incluye a continuación:
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+-->
 
 El resultado obtenido tras la configuración anterior se muestra a continuación:
 
