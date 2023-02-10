@@ -25,7 +25,7 @@ Otra forma de utilizar Bootstrap en nuestros proyectos es descargarnos el códig
 
 [https://getbootstrap.com/docs/5.3/components/navbar](https://getbootstrap.com/docs/5.3/components/navbar)
 
-Para crear una barra de navegación básica en Bootstrap, utilizaremos el elemento HTML [nav](https://developer.mozilla.org/es/docs/Web/HTML/Element/nav). En él, alojaremos una lista no numerada donde cada uno de sus ítems será una opción del menú.
+Para crear una barra de navegación básica en Bootstrap, utilizaremos el elemento HTML [nav](https://developer.mozilla.org/es/docs/Web/HTML/Element/nav). En él, alojaremos una lista no numerada donde cada uno de sus ítems será un enlace con cada una de las opciones del menú.
 
 Si no hacemos uso de Bootstrap, la lista se mostrará de la forma tradicional. Para convertirla en una barra de navegación utilizaremos las siguientes clases:
 * nav - navbar (Podfemos visualizar sus propiedades y valores a través del código fuente de Bootstrap)
@@ -35,7 +35,7 @@ Si no hacemos uso de Bootstrap, la lista se mostrará de la forma tradicional. P
 
 Esto creará una barra de navegación en vertical. Pero en nuestro caso queremos crear una barra horizontal que situaremos en el encabezado de nuestra web y para ello haremos uso de la clase `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` tal y como se detalla en la documentación oficial. Esta clase nos permite colocar la barra de navegación en horizontal, pero que cambiará su estructura si el dispositivo es más estrecho. Podemos probarlo (por ejemplo, en codeply) modificando el viewport mediante los enlaces que se muestran en la parte inferior de la ventana. Podemos observar de esta forma las diferencias entre -md, -lg, -sm...
 
-Para añadirle un color de fondo a la barra de navegación podemos utilizar la clase `bg-lignt`, por ejemplo.
+Para añadirle un color de fondo a la barra de navegación podemos utilizar la clase `bg-light`, por ejemplo.
 
 Haciendo uso de la clase `navbar-light` podemos cambiar el color de los enlaces por un color más acorde al fondo anterior. Para visualizar la gama de colores que se pueden utilizar, podemos visitar la documentación de los [botones](https://getbootstrap.com/docs/5.3/components/buttons/), donde se incluyen varias imágenes que nos permiten apreciarlos de forma más visual.
 
