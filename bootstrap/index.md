@@ -73,3 +73,13 @@ El resultado obtenido tras la configuración anterior se muestra a continuación
 ![navBar1](./img/navBar3.png)
 
 También se pueden crear en la navbar un dropdown link, mantenerlo fijo en la parte superior...
+
+## Sistema de rejilla
+
+[https://getbootstrap.com/docs/5.3/layout/breakpoints/](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
+
+[https://getbootstrap.com/docs/5.3/layout/grid](https://getbootstrap.com/docs/5.3/layout/grid)
+
+## Contenedores
+
+]https://getbootstrap.com/docs/5.3/layout/containers](https://getbootstrap.com/docs/5.3/layout/containers)
