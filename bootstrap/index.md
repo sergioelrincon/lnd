@@ -74,6 +74,10 @@ El resultado obtenido tras la configuración anterior se muestra a continuación
 
 También se pueden crear en la navbar un dropdown link, mantenerlo fijo en la parte superior...
 
+## Tablas
+
+[https://getbootstrap.com/docs/5.3/content/tables/](https://getbootstrap.com/docs/5.3/content/tables/)
+
 ## Sistema de rejilla
 
 [https://getbootstrap.com/docs/5.3/layout/breakpoints/](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
@@ -82,4 +86,25 @@ También se pueden crear en la navbar un dropdown link, mantenerlo fijo en la pa
 
 ## Contenedores
 
-]https://getbootstrap.com/docs/5.3/layout/containers](https://getbootstrap.com/docs/5.3/layout/containers)
+[https://getbootstrap.com/docs/5.3/layout/containers](https://getbootstrap.com/docs/5.3/layout/containers)
+
+## Carrusel
+
+[https://getbootstrap.com/docs/5.3/components/carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
+
+## Imágenes
+
+[https://getbootstrap.com/docs/5.3/content/images/](https://getbootstrap.com/docs/5.3/content/images/)
+
+## Colores
+
+[https://getbootstrap.com/docs/5.3/utilities/colors/](https://getbootstrap.com/docs/5.3/utilities/colors/)
+
+## Fondos
+
+[https://getbootstrap.com/docs/5.3/utilities/background/](https://getbootstrap.com/docs/5.3/utilities/background/)
+
+## Bordes
+
+[https://getbootstrap.com/docs/5.3/utilities/borders/](https://getbootstrap.com/docs/5.3/utilities/borders/)
+
