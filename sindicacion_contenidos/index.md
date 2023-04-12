@@ -131,11 +131,8 @@ El resto de elementos item se corresponden con los artículos publicados ese dí
 
 Tienen dos elementos category y los elementos link y guid no son iguales.
 
-Si nos fijamos en el segundo, se trata de la publicación de un acuerdo internacional.
-
-Tiene dos elementos category, uno para indicar que es una disposición general, y otro para indicar que se trata del Ministerio de Exteriores.
-
 El elemento link contiene un vínculo que lleva a una página con el contenido en HTML. 
+
 El elemento guid lleva a la versión en PDF del mismo contenido.
 
 ## Validación
