@@ -50,13 +50,11 @@ La creación de feeds resulta interesante para aquellos sitios web que se actual
 
 ## Tecnologías de creación de canales de contenidos
 
-Los estándares más utilizados se clasifican en dos grupos:
+Los estándares más utilizados son RSS y Atom.
 
-* **RSS:** (Really Simple Syndication) es parte de la familia de los formatos XML, desarrollado para compartir la información que se actualiza con frecuencia entre sitios web. Además se utiliza para:
-    * Conectar con sistemas de mensajería instantánea. Conversión RSS en mensajes de correo electrónico. 
-    * Transformar los enlaces favoritos del navegador en RSS.
+Tanto RSS como Atom son formatos de sindicación de contenidos populares en la actualidad, aunque RSS es generalmente considerado como el formato más utilizado. RSS es el formato más antiguo y ampliamente adoptado, y se utiliza para distribuir contenido actualizado de un sitio web a sus lectores de forma automatizada. Por otro lado, Atom es un formato más reciente, que fue desarrollado como una alternativa a RSS, y también es compatible con la distribución de contenido actualizado.
 
-* **Atom:** fue publicado como un estándar propuesto por el grupo de trabajo Atom Publishing Format and Protocol (Formato y protocolo de publicación Atom) de la IETF en el RFC4287. Se desarrolló como una alternativa a RSS, con el fin de evitar la confusión creada por la existencia de estándares similares para la sindicación de contenidos, entre los que existía cierta incompatibilidad. En lugar de sustituir a los estándares existentes, se creó un nuevo estándar que convive con ellos. Se caracteriza por su flexibilidad. Atom permite tener un mayor control sobre la cantidad de información a representar en los agregadores.
+Ambos formatos tienen ventajas y desventajas, pero RSS ha sido más popular debido a su amplia adopción y a la gran cantidad de herramientas y servicios que lo soportan. A pesar de esto, Atom ha ganado popularidad en los últimos años debido a su flexibilidad y capacidad para soportar una variedad de tipos de contenido y formatos de datos. En última instancia, la elección del formato de sindicación de contenidos a utilizar depende de las necesidades específicas de cada sitio web y de sus lectores.
 
 # El estándar RSS
 
@@ -143,11 +141,10 @@ Para validar un documento RSS con uno de estos validadores, se le da la direcci�
 
 Una vez validado, suelen ofrecer una imagen del tipo "XML" o "RSS", de color naranja por lo general, que se puede incluir en la página principal, para enlazar a la dirección del fichero alojado en su dominio. Así, cuando un visitante pulse sobre este pequeño icono, accederá directamente al contenido actual de la fuente y podrá navegar a través de él a las páginas que más le interesen.
 
-Algunos de estos servicios de validación también ofrecen imágenes que se pueden incluir en la página para que cualquier visitante compruebe que el canal es válid
+Algunos de estos servicios de validación también ofrecen imágenes que se pueden incluir en la página para que cualquier visitante compruebe que el canal es válido.
 
 Algunos de los validadores que podemos encontrar en Internet son:
 
-* [FeedValidator](http://feedvalidator.org/)
 * [W3C Feed Validation Service mediante URI](http://validator.w3.org/feed/#validate_by_uri)
 * [W3C Feed Validation Service mediante código](http://validator.w3.org/feed/#validate_by_input)
 * [RSS Advisory Board](http://www.rssboard.org/rss-validator/)
