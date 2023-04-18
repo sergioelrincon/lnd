@@ -80,6 +80,7 @@ También hay varios elementos opcionales. Algunos de ellos son:
 
 * `<language>` - Define el idioma del canal
 * `<category>` - Define una o más categorías a las que pertenece la fuente
+* `<image>` - Permite que los agregadores muestren una imagen relacionada con el canal 
 
 Cada canal tiene uno o más artículos o secciones (etiqueta <item>), cada uno de los cuales cuenta "una historia" del canal. Tiene tres elementos hijos obligatorios:
 
@@ -91,6 +92,8 @@ También hay varios elementos opcionales. Algunos de ellos son:
 * `<author>` - Define el autor del artículo
 * `<category>` - Define una o más categorías a las que pertenece la fuente 
 * `<guid>` - Define un identificador único para el elemento
+* `<comments>` - Permite que los agregadores enlacen a páginas con comentarios sobre el artículo
+* `<enclosure>` - Permite incluir un fichero multimedia asociado a un ítem 
 
 ## Ejemplo de RSS
 
